@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\David\AndroidStudioProjects\BasicNotifications\Application\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9742ced04aafd9ac97dd2c66c1aa0e32d2ae7e54">
+        <dex dex="C:\Users\David\AndroidStudioProjects\BasicNotifications\Application\build\intermediates\pre-dexed\debug\classes-e696d1f2fb4b9e6f0941667eca1fbb426da4f761.jar" />
+    </item>
+    <item
+        jar="C:\Users\David\AndroidStudioProjects\BasicNotifications\Application\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\libs\internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="C:\Users\David\AndroidStudioProjects\BasicNotifications\Application\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-e77a43fb04507d0d00afacc8a910328f623be779.jar" />
+    </item>
+    <item
+        jar="C:\Users\David\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.2\support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="C:\Users\David\AndroidStudioProjects\BasicNotifications\Application\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-7d588519cda7cd9b6f9a522cea4c7d7b39d728a5.jar" />
+    </item>
+    <item
+        jar="C:\Users\David\AndroidStudioProjects\BasicNotifications\Application\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="C:\Users\David\AndroidStudioProjects\BasicNotifications\Application\build\intermediates\pre-dexed\debug\classes-e4819469eb76b83f7ee7a1ee5ed725dce8b3fbcc.jar" />
+    </item>
+    <item
+        jar="C:\Users\David\AndroidStudioProjects\BasicNotifications\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b017100da14f9c158c9f5f2f508333c224b24a7c">
+        <dex dex="C:\Users\David\AndroidStudioProjects\BasicNotifications\Application\build\intermediates\pre-dexed\debug\classes-c9b095484e1ba4abfec8dc9e88e03d96301e025d.jar" />
+    </item>
+
+</items>

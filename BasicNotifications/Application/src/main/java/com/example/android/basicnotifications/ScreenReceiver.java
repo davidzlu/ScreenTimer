@@ -14,10 +14,10 @@ public class ScreenReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
         if (intent.getAction().equals(Intent.ACTION_SCREEN_ON))
         {
-            Intent alarmServiceIntent = new Intent();
-            alarmServiceIntent.setClass(context, MainActivity.class);
+            Intent mainActivityIntent = new Intent();
+            mainActivityIntent.setClass(context, MainActivity.class);
 
-            context.startService(alarmServiceIntent);
+            context.startActivity(mainActivityIntent);
         }
     }
 }

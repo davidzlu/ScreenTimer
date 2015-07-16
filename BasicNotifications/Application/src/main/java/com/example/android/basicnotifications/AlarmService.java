@@ -4,6 +4,7 @@ import android.app.AlarmManager;
 import android.app.IntentService;
 import android.app.PendingIntent;
 import android.app.Service;
+import android.content.Context;
 import android.content.Intent;
 import android.os.IBinder;
 
@@ -13,7 +14,6 @@ import android.os.IBinder;
 public class AlarmService extends IntentService {
 
     int alarmType;
-    AlarmManager alarmManager;
 
     public AlarmService() {
         super("AlarmService");
@@ -25,8 +25,8 @@ public class AlarmService extends IntentService {
         long screenTime = intent.getLongExtra("screenTime", 20);
         Intent alarmIntent = new Intent(this, AlarmReceiver.class);
         PendingIntent pendingIntent = PendingIntent.getBroadcast(this, 0, alarmIntent, 0);
-
-        alarmManager.set(alarmType, screenTime, pendingIntent);
+        AlarmManager alarmManager = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
+        alarmManager.setRepeating(alarmType, screenTime, 5000, pendingIntent);
     }
 
 }
